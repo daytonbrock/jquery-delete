@@ -11,7 +11,34 @@
 </head>
 <body>
     <h1>jQuery Delete</h1>
-    <!-- <button id="clickMe">Click Me!</button> -->
-    
+    <input id="commonIn" type="text" placeholder="common name">
+    <input id="scienceIn" type="text" placeholder="scientific name">
+    <button id="addDog">Click Me!</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Common Name</th>
+                <th>Scientific Name</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="dogTable">
+            <tr>
+                <td>Big Dog</td>
+                <td>Dogus Maximus</td>
+                <td>
+                    <button class="deleteBtn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>German Shepherd</td>
+                <td>Shepherdus Germanis</td>
+                <td>
+                    <button class="deleteBtn">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="dogCountDiv">2</div>
 </body>
 </html>
